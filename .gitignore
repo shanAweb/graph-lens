@@ -1,0 +1,198 @@
+# =========================================
+# Claude / AI tooling
+# =========================================
+.claude/
+.claude
+.claudeignore
+.cursor/
+.aider*
+.continue/
+
+# =========================================
+# Python
+# =========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+.eggs/
+dist/
+build/
+develop-eggs/
+downloads/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.manifest
+*.spec
+pip-log.txt
+pip-delete-this-directory.txt
+MANIFEST
+
+# =========================================
+# Virtual environments
+# =========================================
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.python-version
+.virtualenv/
+pipenv/
+poetry.lock
+
+# =========================================
+# Environment & secrets
+# =========================================
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.crt
+secrets/
+credentials.json
+service-account*.json
+
+# =========================================
+# Testing & coverage
+# =========================================
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+nosetests.xml
+junit.xml
+
+# =========================================
+# Type checkers & linters
+# =========================================
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+.ruff_cache/
+.pylint.d/
+
+# =========================================
+# Jupyter / notebooks
+# =========================================
+.ipynb_checkpoints/
+*-checkpoint.ipynb
+profile_default/
+ipython_config.py
+
+# =========================================
+# Data (large / generated)
+# =========================================
+data/raw/*
+data/processed/*
+data/samples/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/samples/.gitkeep
+*.parquet
+*.feather
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.joblib
+
+# =========================================
+# Models / embeddings caches
+# =========================================
+models/
+*.bin
+*.onnx
+*.pt
+*.pth
+*.safetensors
+.cache/
+.huggingface/
+huggingface/
+sentence-transformers/
+transformers_cache/
+
+# =========================================
+# Neo4j local
+# =========================================
+neo4j_data/
+neo4j/data/
+neo4j/logs/
+neo4j/import/
+neo4j/plugins/
+
+# =========================================
+# Qdrant local
+# =========================================
+qdrant_data/
+qdrant_storage/
+
+# =========================================
+# Docker
+# =========================================
+*.pid
+docker-compose.override.yml
+
+# =========================================
+# Logs
+# =========================================
+logs/
+*.log
+*.log.*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# =========================================
+# OS
+# =========================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# =========================================
+# Editors / IDEs
+# =========================================
+.vscode/
+!.vscode/settings.json.example
+.idea/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+*.sublime-workspace
+*.sublime-project
+
+# =========================================
+# Misc
+# =========================================
+tmp/
+temp/
+.tmp/
+*.bak
+*.orig
